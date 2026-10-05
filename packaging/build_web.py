@@ -288,6 +288,8 @@ def main(argv=None):
     from elekloader import __version__
     site['build.json'] = json.dumps({
         'elekloader': __version__, 'commit': commit,
+        # the repository the site is built from (the workflow's), for its links: issues, commits
+        'repository': os.environ.get('GITHUB_REPOSITORY') or 'irpina/elekloader',
         'commit_date': git('log', '-1', '--format=%cI').decode().strip(),
         # the zip is HEAD's package; a working tree with changes there is not in it
         'package_changes_not_in_zip': dirty,
