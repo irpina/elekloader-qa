@@ -169,6 +169,12 @@
       "on_unit": "Its author reports the stand-alone 1.5d tested on a Digitakt mk1, and 1.9a not yet; it passes their emulator tests on OS 1.53 and 1.54."
     },
     {
+      "repo": "soejrd/digisophie", "tag": "v1.1.13", "file": "digihealth-1.0.1.elemod",
+      "device": "digitakt-mk1",
+      "sha256": "40e2a7b7dc10c756e8888d2106a559d504338c83cc1b434334b9825d1e96883c",
+      "summary": "A metallic percussion machine with four models: FUSE, BOOM, PIPE and SHARD."
+    },
+    {
       "repo": "irpina/octabam2elemod", "tag": "v1.0", "file": "octabam-tuner-363861e.elemod",
       "device": "octatrack", "needs_core": "0.1",
       "sha256": "1e2447d88c953b09584bcd0b84a9b7733bb87264b6542169d0f2686f9762dff6",
