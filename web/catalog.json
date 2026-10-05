@@ -169,6 +169,13 @@
       "on_unit": "Its author reports the stand-alone 1.5d tested on a Digitakt mk1, and 1.9a not yet; it passes their emulator tests on OS 1.53 and 1.54."
     },
     {
+      "repo": "DigiAlchemydsp/DigiFilter", "tag": "v1.0i.2", "file": "digifilter-1.0i.elemod",
+      "device": "digitakt-mk1",
+      "sha256": "796b7a0443f733b5fbf7aa2ff6459dc4afe3399a03c0de4f8850e35d240d9468",
+      "summary": "A filter machine for the Digitakt with comb, trash and band-pass shapes, and an animated response curve.",
+      "on_unit": "Not yet tested on a unit by the shop; see its author's release notes."
+    },
+    {
       "repo": "irpina/octabam2elemod", "tag": "v1.0", "file": "octabam-tuner-363861e.elemod",
       "device": "octatrack", "needs_core": "0.1",
       "sha256": "1e2447d88c953b09584bcd0b84a9b7733bb87264b6542169d0f2686f9762dff6",
